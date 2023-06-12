@@ -3,7 +3,7 @@
   {vsn, "git"},
   {modules, []},
   {registered, [emqx_management_sup]},
-  {applications, [kernel,stdlib,minirest,mnesia]},
+  {applications, [kernel,stdlib,minirest,mnesia,emqx]},
   {mod, {emqx_mgmt_app,[]}},
   {env, []},
   {licenses, ["Apache-2.0"]},
